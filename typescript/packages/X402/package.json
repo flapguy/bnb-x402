@@ -86,14 +86,14 @@
     "static"
   ],
   "devDependencies": {
-    "@types/node": "^22.15.3",
-    "zod": "^3.25.49"
+    "@types/node": "^22.15.3"
   },
   "dependencies": {
     "@types/express": "^5.0.1",
     "express": "^4.21.2",
     "next": "15.3.1",
     "typescript": "^5.8.3",
-    "viem": "^2.28.1"
+    "viem": "^2.28.1",
+    "zod": "^3.25.49"
   }
 }
