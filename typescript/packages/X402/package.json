@@ -67,18 +67,14 @@
       }
     },
     "./verify": {
-      "import": {
         "types": "./dist/verify/index.d.ts",
         "import": "./dist/verify/index.js",
-        "default": "./dist/verify/index.js"
-      }
-    },
+        "default": "./dist/verify/index.js"    
+      },
     "./shared": {
-      "import": {
         "types": "./dist/shared/index.d.ts",
         "import": "./dist/shared/index.js",
         "default": "./dist/shared/index.js"
-      }
     }
   },
   "files": [

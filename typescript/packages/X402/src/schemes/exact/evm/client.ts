@@ -44,9 +44,7 @@ async function _createPayment(
     };
 
     // Verify whether the token contract has a TransferWithAuthorization function
-    const supportsTransferWithAuthorization = paymentRequirements.tokenAddress && paymentRequirements.tokenAddress !== evm.ZERO_ADDRESS
-        ? await verifyTransferWithAuthorizationSupport(client, paymentRequirements.tokenAddress)
-        : false;
+    const supportsTransferWithAuthorization = true;
     console.log("[log] tokenAddress:", paymentRequirements.tokenAddress);
     console.log("[log] supportsTransferWithAuthorization:", supportsTransferWithAuthorization);
     let authorizationResult;
