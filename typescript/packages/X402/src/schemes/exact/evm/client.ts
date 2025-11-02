@@ -9,7 +9,7 @@ import {
     PaymentRequirements,
     EvmPaymentPayload,
 } from "../../../types/index.js";
-import {verifyTransferWithAuthorizationSupport} from "./utils/contractUtils";
+import {verifyTransferWithAuthorizationSupport} from "./utils/contractUtils.js";
 
 const TRANSFER_WITH_AUTHORIZATION_ABI = [
     {
