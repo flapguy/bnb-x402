@@ -6,7 +6,7 @@
   "types": "./dist/index.d.ts",
   "description": "Aeon's x402 open protocol for blockchain-native payments",
   "scripts": {
-    "build": "tsc && pnpm run build:paywall && tsc",
+    "build": "tsc",
     "build:paywall": "pnpm --filter 'paywall-app' i && pnpm --filter 'paywall-app' build && node ../../../scripts/build-paywall.js",
     "clean": "rm -rf dist"
   },
@@ -90,7 +90,6 @@
     "zod": "^3.25.49"
   },
   "dependencies": {
-    "@aeon-ai-pay/x402": "workspace:*",
     "@types/express": "^5.0.1",
     "express": "^4.21.2",
     "next": "15.3.1",
